@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AugCafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="clock">clock</string>
+    <string name="calendar">calendar</string>
+    <string name="current_date_default">Current Date</string>
+    <string name="meal_button_breakfast">Breakfast</string>
+    <string name="meal_button_lunch">Lunch</string>
+    <string name="meal_button_supper">Supper</string>
+    <string name="ingredients_button">Ingredients</string>
+    <string name="title">Augustana Cafeteria</string>
+    <string name="contact_info_description">Contact Info</string>
+    <string name="contact_info_dialog_title">Contact Info</string>
+    <string name="contact_info">Email: augfood@ualberta.ca</string>
+    <string name="active_time_default_value">Current Time</string>
+
+    <string name="week1_sunday">Week 1 Sunday</string>
+    <string name="week1_monday">Week 1 Monday</string>
+    <string name="week1_tuesday">Week 1 Tuesday</string>
+    <string name="week1_wednesday">Week 1 Wednesday</string>
+    <string name="week1_thursday">Week 1 Thursday</string>
+    <string name="week1_friday">Week 1 Friday</string>
+    <string name="week1_saturday">Week 1 Saturday</string>
+
+    <string name="week2_sunday">Week 2 Sunday</string>
+    <string name="week2_monday">Week 2 Monday</string>
+    <string name="week2_tuesday">Week 2 Tuesday</string>
+    <string name="week2_wednesday">Week 2 Wednesday</string>
+    <string name="week2_thursday">Week 2 Thursday</string>
+    <string name="week2_friday">Week 2 Friday</string>
+    <string name="week2_saturday">Week 2 Saturday</string>
+
+</resources>

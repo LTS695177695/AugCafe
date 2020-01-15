@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/meal_button_breakfast"
+            android:text="@string/meal_button_breakfast"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_weight="33"
+            android:background="@drawable/meal_button"/>
+
+        <View
+            android:id="@+id/firstDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/colorDivider"/>
+
+        <Button
+            android:id="@+id/meal_button_lunch"
+            android:text="@string/meal_button_lunch"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_weight="33"
+            android:background="@drawable/meal_button" />
+
+        <View
+            android:id="@+id/secondDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/colorDivider" />
+
+        <Button
+            android:id="@+id/meal_button_dinner"
+            android:text="@string/meal_button_supper"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_weight="33"
+            android:background="@drawable/meal_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/meal_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:lineSpacingExtra="5dp"
+            android:text=""
+            android:background="@color/colorPrimary"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:layout_weight="1.0"
+            />
+
+        <TextView
+            android:id="@+id/time_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/active_time_default_value"
+            android:gravity="start|center"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:paddingStart="5dp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:gravity="start">
+
+            <Button
+                android:id="@+id/contact_info_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:contentDescription="@string/contact_info_description" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="36dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="36dp">
+
+
+            <Button
+                android:id="@+id/ingredients_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showIngredient"
+                android:text="@string/ingredients_button"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

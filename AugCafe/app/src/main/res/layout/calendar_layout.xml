@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="275dp"
+    android:background="@drawable/cafe_calendar"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="46dp">
+
+        <Button
+            android:id="@+id/week1_sunday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14.4"
+            android:text="@string/week1_sunday"
+            android:gravity="end"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/week1_monday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14.5"
+            android:text="@string/week1_monday"
+            android:gravity="end"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/week1_tuesday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14.3"
+            android:gravity="end"
+            android:text="@string/week1_tuesday"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/week1_wednesday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14.3"
+            android:gravity="end"
+            android:text="@string/week1_wednesday"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/week1_thursday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14.5"
+            android:gravity="end"
+            android:text="@string/week1_thursday"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/week1_friday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:gravity="end"
+            android:text="@string/week1_friday"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/week1_saturday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:gravity="end"
+            android:text="@string/week1_saturday"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginTop="148dp">
+
+        <Button
+            android:id="@+id/week2_sunday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14.4"
+            android:text="@string/week2_sunday"
+            android:gravity="end"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/week2_monday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14.5"
+        android:text="@string/week2_monday"
+        android:gravity="end"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/week2_tuesday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14.3"
+        android:gravity="end"
+        android:text="@string/week2_tuesday"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/week2_wednesday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14.3"
+        android:gravity="end"
+        android:text="@string/week2_wednesday"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/week2_thursday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14.5"
+        android:gravity="end"
+        android:text="@string/week2_thursday"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/week2_friday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        android:gravity="end"
+        android:text="@string/week2_friday"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/week2_saturday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        android:gravity="end"
+        android:text="@string/week2_saturday"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:background="@android:color/transparent"/>
+    </LinearLayout>
+</RelativeLayout>
